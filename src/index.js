@@ -76,8 +76,6 @@ class Game extends React.Component {
 
   render() {
     const history = this.state.history;
-    console.log(history)
-    console.log(this.state.stepNumber)
     const current = history[this.state.stepNumber];
     const winner = calculateWinner(current.squares);
 
